@@ -12,6 +12,9 @@
         <!-- Additional CSS must be placed after Bootstrap CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
         <link rel="stylesheet" href="css/styles.css" />
+        <script src="https://kit.fontawesome.com/4212ea3737.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+        
         <title>Natalie Henson's Portfolio</title>
     </head>
 
@@ -23,7 +26,7 @@
             <div class="row row-content">
                 <div class="col">
                     <h1>Natalie Henson</h1>
-                    <h2>Full Stack Web Developer</h2>
+                    <h1>Full Stack Web Developer</h2>
                 </div>
             </div>
         </div>
@@ -39,41 +42,173 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link text-white" href="#about">About</a>
                 <a class="nav-item nav-link text-white" href="#portfolio">Portfolio</a>
-                <a class="nav-item nav-link text-white" href="#portfolio">Contact</a>
+                <a class="nav-item nav-link text-white" href="#professionalExperience">Professional Experience</a>
+                <a class="nav-item nav-link text-white" href="#contact">Contact</a>
             </div>
         </div>
     </nav> <!--Nav Bar Ends-->
-    
+
     <!--Portfolio Cards-->
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+        <h2 id="portfolio">Portfolio</h2>
+        <div class="row text-center">
+            <div class="col-sm-4">
                 <div class="card" style="width: 18rem;">
+                  <a href="https://github.com/nataliehenson/soilCycle" target="_blank"> 
                     <img src="/img/SoilCyclePic.png" class="card-img-top" alt="clip of soilcycle">
+                  </a> 
                     <div class="card-body">
-                        <p class="card-text">Here is a single page webpage for a new small environmental nonprofit. It uses HTML, CSS, JavaScript, and Bootstrap.</p>
+                        <p class="card-text">Here is a single page webpage for a new small environmental nonprofit that hires under-resourced youth to collect compost from local restaurants via bicycles. It uses HTML, CSS, JavaScript, and Bootstrap.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="/img/SoilCyclePic.png" class="card-img-top" alt="clip of musician">
+                    <a href="https://github.com/eshapiro7/musicianwebsitereact" target="_blank">
+                      <img src="/img/musicianshot.png" class="card-img-top" alt="clip of musician">
+                    </a>
                     <div class="card-body">
-                        <p class="card-text">This is a mockup for a musician. We used React to make this single page application</p>
+                        <p class="card-text">This is a mockup for a New York based musician. We used React to make this single page application</p>
                     </div>
                 </div>
             </div>
+            <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <a href="https://scratch.mit.edu/projects/458098313" target="_blank"> 
+                  <img src="/img/morels.png" class="card-img-top" alt="clip of morel game">
+                </a> 
+                  <div class="card-body">
+                      <p class="card-text">This was my first ever project, a simple game of identifying edible mushrooms. It was created using Scratch</p>
+                  </div>
+              </div>
+          </div>
         </div>
     </div>
 
-      
+    <!--About Section-->
+    <div class="container" id="about">
+      <h2>Tech Toolkit</h2>
+      <div class="row text-center">
+          <div class="col-md-6">
+              <p>React, React-Bootstrap, Javascript, CSS, Bootstrap, Sass, HTML, Github, VS Code, Moqups</p>
+          </div>
+          <div class="col-md-6">
+              <p>
+                  <i class="fa-brands fa-react fa-2xl"></i>
+                  <i class="fa-brands fa-js fa-2xl"></i>
+                  <i class="fa-brands fa-css3 fa-2xl"></i>
+                  <i class="fa-brands fa-bootstrap fa-2xl"></i>
+                  <i class="fa-brands fa-sass fa-2xl"></i>
+                  <i class="fa-brands fa-html5 fa-2xl"></i>
+                  <i class="fa-brands fa-github fa-2xl"></i>
+              </p>
+          </div> 
+        </div>  
+      <h2>About</h2>
+      <div class="row text-center align-items-center">
+        <div class="col-md-6 mb-3">
+          <p>I am a dedicated new developer who enjoys building responsive web. I am currently still in bootcamp but am motivated to learning and building more projects. As a former educator, I am adaptable and thrive working on a team. I'm available for remote part-time or freelance work. </p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/DSC_4849.jpg" alt="natalie" width="250" class="img-thumbnail rounded-circle" />
+        </div>
+      </div>
+      <h2>Education and Certificates</h2>
+      <div class="row mb-3">
+          <div class="col">
+            <ul>
+              <li>Full Stack Web and Mobile Development, Nucamp, June 2022</li>
+              <li>Web Development Fundamentals, Nucamp, November 2021</li>
+              <li>Bachelors in Sociology, University of North Carolina at Asheville, GPA 3.79</li>
+            </ul>
+          </div>
+
+    </div>
+
+    <!--Professional Experience-->
+    <div class="container" id="professionalExperience">
+        <h2>Professional Experience</h2>
+        <div class="accordion mt-3" id="accordionExp">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne">
+                    Postsecondary Director
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseOne" class="collapse" data-parent="#accordionExp">
+                <div class="card-body">
+                  August 2018 - August 2022
+                  <br>
+                  •Implements a post-secondary program for 60 young adults from diverse backgrounds by developing a relevant curriculum with academic support, financial education, career planning, and health and wellness activities
+                  <br>•Assists first-generation students in transition to college by meeting with students weekly during the fall semester
+                  <br>
+                  •Provides a clear transition plan from high school to a post-secondary opportunity  
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo">
+                    Peace Corps Peru Youth Specialist
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" data-parent="#accordionExp">
+                <div class="card-body">
+                    August 2015  - August 2017
+                    <br>
+                    • Demonstrated adaptability and intercultural competency through effective communication with multi-cultural populations to accomplish projects and encourage sustainability in the rural community for 2 years
+                    <br>
+                    • Planned and implemented over 250 sessions on self-esteem, goal-setting, sexual health education, financial competency, career planning, gender equality, and leadership at 3 secondary schools, reaching 145 students
+                    <br>
+                    • Created a community cultural center with host country partners to empower youth to invest in their self-esteem and personal interests and for the community to gather for cultural nights of music, poetry, and theater
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree">
+                    City Year Seattle AmeriCorps Member
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExp">
+                <div class="card-body">
+                  August 2013 - June 2015
+                  <br>
+                  • Served as a full-time tutor and mentor in whole classroom support in a diverse 8th grade math class, reaching 260 students
+                  <br>
+                  • Created and facilitated engaging weekly academic sessions for 17 students in small groups and 1:1 interactions
+                  <br>
+                  • Improved daily attendance rate of at-risk students through weekly individual goal setting and monthly recognition events
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
 
 
     <footer>
 
-        <div>
-            Tel: 1-540-273-9958<br />
-            Email: nmhenson13@gmail.com
+        <div id="contact" class="container mt-2">
+          <div class="row">
+            <div class="col text-center">
+              <p>1-540-273-9958</p>
+              <p><a href="mailto:nmhenson13@gmail.com">nmhenson13@gmail.com</a></p>
+              <a href="https://www.linkedin.com/in/natalie-m-henson/">
+                <i class="fa fa-linkedin fa-lg"></i>
+              </a> LinkedIn
+              <br>
+              <a href="https://github.com/nataliehenson">
+                <i class="fa fa-github fa-lg"></i>
+              </a> Github
+          </div>
         </div>
    </footer>
 

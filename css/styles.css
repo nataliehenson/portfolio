@@ -4,6 +4,18 @@ html {
 
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: #343d3f;
+    color: white;
+}
+
+h1 {
+    font-family: "Dela Gothic One", cursive;
+}
+
+h2,
+h3 {
+    text-align: center;
+    font-family: "Dela Gothic One", cursive;
 }
 
 header {
@@ -11,7 +23,7 @@ header {
 }
 
 .navbar {
-    background-color: #4b3842;
+    background-image: linear-gradient(to right, #4b3842, #595565, #9192a2);
 }
 
 footer {
@@ -34,4 +46,14 @@ footer {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.card-text,
+.card-body {
+    color: white;
+    background-color: #343d3f;
+}
+
+.card-header {
+    background-image: linear-gradient(to right, #4b3842, #595565, #9192a2);
 }
